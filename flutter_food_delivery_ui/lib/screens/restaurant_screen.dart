@@ -13,7 +13,7 @@ class _RestaurantScreenState extends State<RestaurantScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Restaurant'),
+        title: Text('Restaurant page'),
       ),
     );
   }
