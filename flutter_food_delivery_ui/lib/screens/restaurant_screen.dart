@@ -12,8 +12,12 @@ class _RestaurantScreenState extends State<RestaurantScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Restaurant page'),
+      body: ListView(
+        children: <Widget>[
+          Stack(
+            children: <Widget>[Image.asset(widget.restaurant.imageUrl)],
+          ),
+        ],
       ),
     );
   }
