@@ -28,7 +28,7 @@ class _RestaurantScreenState extends State<RestaurantScreen> {
             ),
           ),
           Container(
-            height: 175,
+            height: 176,
             width: 175,
           ),
         ],
