@@ -45,7 +45,7 @@ class _CartScreenState extends State<CartScreen> {
                         ),
                         SizedBox(height: 10.0),
                         Text(
-                          'aaaaaaaaaaaaaaaaaaaaaaaaaa',
+                          'price',
                           style: TextStyle(
                             fontSize: 16.0,
                             fontWeight: FontWeight.bold,
